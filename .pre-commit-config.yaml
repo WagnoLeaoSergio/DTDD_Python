@@ -13,3 +13,11 @@ repos:
         description: Run Flake8 to check code requirements
         entry: flake8
         language: python
+          
+      - id: pdoc3
+        name: pdoc
+        description: Generate documentation from code docstrings
+        entry: pdoc src
+        pass_filenames: false
+        args: [--html, --force]
+        language: python

@@ -13,6 +13,7 @@ pdoc3 = "^0.10.0"
 black = "^21.9b0"
 pre-commit = "^2.15.0"
 flake8 = "^3.9.2"
+flake8-docstrings = "^1.6.0"
 
 [tool.black]
 line-length = 88
