@@ -25,7 +25,7 @@ Este projeto tem como objetivo ser um tutorial para implantar e configurar um am
 Após a clonagem do repositório, é necessário configurar os comandos que vão ser executados antes de cada commit. O módulo `pre-commits` é responsável pela execução dos Hooks. Para instalar o hooks no projeto basta apenas executar o comando:
 
 ```bash
-pre-commits install
+pre-commit install
 ```
 
 ```python
