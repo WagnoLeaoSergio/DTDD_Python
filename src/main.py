@@ -1,6 +1,3 @@
-"""Módulo principal"""
-
-
 def foo(num):
     """
     Essa funcao printa um numero
