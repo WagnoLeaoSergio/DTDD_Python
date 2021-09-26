@@ -1,10 +1,15 @@
+files: '.*py$'
 repos:
--   repo: https://github.com/ambv/black
-    rev: stable
+-   repo: local
     hooks:
-    - id: black
-      language_version: python3.6
--   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.9.2
-    hooks:
-    - id: flake8
+      - id: black
+        name: Black Formatter
+        description: Run Black to format code
+        entry: black
+        language: python
+          
+      - id: flake8
+        name: Flake8 Checker
+        description: Run Flake8 to check code requirements
+        entry: flake8
+        language: python
