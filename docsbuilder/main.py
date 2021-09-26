@@ -1,4 +1,3 @@
-
 def foo(num):
     """
     Essa funcao printa um numero
@@ -8,4 +7,5 @@ def foo(num):
     num int: Numero que vai ser printado
     """
 
-    print(num);
+    # mudanca
+    print(num)
