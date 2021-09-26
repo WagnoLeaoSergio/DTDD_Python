@@ -8,4 +8,4 @@ def foo(num):
     num int: Numero que vai ser printado
     """
 
-    print(num)
+    print(num);
