@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "DocsBuilder"
+version = "0.1.0"
+description = ""
+authors = ["WagnoLeaoSergio <wagnoleao@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pdoc3 = "^0.10.0"
+black = "^21.9b0"
+pre-commit = "^2.15.0"
+flake8 = "^3.9.2"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
