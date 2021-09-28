@@ -18,6 +18,8 @@ poetry install
 
 Este projeto tem como objetivo ser um tutorial para implantar e configurar um ambiente desenvolvimento em Python que segue as diretrizes do Desenvolvimento Orientado a Testes (TDD), além de fazer uso de ferramentas para a geração automática de Documentação e formatação automática e obrigatória do código desenvolvido antes de qualquer atualização no repositório.
 
+![Image DTDD](./html/dtdd.png "Documented Test-Driven Development")
+
 ## Modo de Uso
 
 ### Execução dos Git Hooks

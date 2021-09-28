@@ -7,5 +7,5 @@ def foo(num):
     num int: Numero que vai ser printado
     """
 
-    # mudance
+    # mudanca
     print(num)
