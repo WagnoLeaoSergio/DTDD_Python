@@ -20,8 +20,6 @@ Este projeto tem como objetivo ser um tutorial para implantar e configurar um am
 
 ![Image DTDD](./html/dtdd.png "Documented Test-Driven Development")
 
-## Modo de Uso
-
 ### Execução dos Git Hooks
 
 Após a clonagem do repositório, é necessário configurar os comandos que vão ser executados antes de cada commit. O módulo `pre-commit` é responsável pela execução dos Hooks. Para instalar o hooks no projeto basta apenas executar o comando:
@@ -30,25 +28,6 @@ Após a clonagem do repositório, é necessário configurar os comandos que vão
 pre-commit install
 ```
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contribuições
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
+## Licensas 
 
 Nenhuma até o momento.
