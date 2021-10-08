@@ -4,13 +4,14 @@ Projeto criado como exercício para a implantação de um ambiente de desenvolvi
 
 ## Pré-requisitos
 
-Este projeto usa exclusivamente o gerenciador de pacotes `Poetry`, instalá-lo é altamenterecomendado.
+Este projeto usa exclusivamente o gerenciador de pacotes `Poetry`, instalá-lo é altamente recomendado.
 
 ## Instalação
 
 Com o Poetry instalado, basta executar o código:
 
 ```bash
+poetry shell
 poetry install
 ```
 
