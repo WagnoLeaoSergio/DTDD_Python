@@ -21,3 +21,10 @@ repos:
         pass_filenames: false
         args: [--html, --force]
         language: python
+
+      - id: pytest
+        name: Pytest
+        description: Run all tests of the project
+        entry: pytest
+        pass_filenames: false
+        language: python
