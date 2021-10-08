@@ -1,4 +1,4 @@
-from docsbuilder import __version__
+from src import __version__
 
 """Módulo de teste do projeto"""
 
