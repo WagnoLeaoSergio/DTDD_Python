@@ -20,6 +20,17 @@ Este projeto tem como objetivo ser um tutorial para implantar e configurar um am
 
 ![Image DTDD](./html/dtdd.png "Documented Test-Driven Development")
 
+## Modo de Uso
+
+1. Clone este respositório
+2. (Opcional) Remova a origem do repositório usando o comando
+```bash
+git remote remove origin
+```
+3. Adicione origem do repositório do seu novo projeto.
+4. Siga os passos de instalação acima.
+5. Atualize o README para o seu novo projeto.
+
 ### Execução dos Git Hooks
 
 Após a clonagem do repositório, é necessário configurar os comandos que vão ser executados antes de cada commit. O módulo `pre-commit` é responsável pela execução dos Hooks. Para instalar o hooks no projeto basta apenas executar o comando:
